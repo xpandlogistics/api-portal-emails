@@ -55,3 +55,118 @@ h1 {
 .ExternalClass {
   width: 100%;
 }
+
+/* ---------- Header ---------- */
+.header-table {
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: top;
+  width: 600px;
+  max-width: 100%;
+  background-color: #fafafa;
+  border-bottom: 2px solid #f2f4f6;
+}
+
+.header-data {
+  vertical-align: top;
+  padding: 15px 0;
+}
+
+.header-logo {
+  max-width: 80px;
+  width: 80px;
+  height: 70px;
+  max-height: 70px;
+  text-align: center;
+}
+
+/* ---------- Content ---------- */
+
+.content-table {
+  margin: 0 auto;
+  text-align: justify;
+  vertical-align: top;
+  width: 600px;
+  max-width: 600px;
+  background-color: #ffffff;
+}
+
+.content-data {
+  width: 596px;
+  vertical-align: top;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.content-signature {
+  font-size: 15px;
+  line-height: 24px;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+
+/* ---------- Footer ---------- */
+
+.footer-image {
+  margin: auto;
+  display: block;
+  width: 600px;
+  max-width: 600px;
+  height: 240px;
+  max-height: 240px;
+}
+
+footer table {
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: top;
+  width: 600px;
+  max-width: 600px;
+}
+
+.top-footer-table {
+  background-color: #000000;
+}
+
+.bottom-footer-table {
+  background-color: #ffffff;
+}
+
+.footer-data {
+  width: 596px;
+  vertical-align: top;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-logo {
+  width: 180px;
+  max-width: 180px;
+  height: 85px;
+  max-height: 85px;
+  text-align: center;
+}
+
+footer p {
+  font-family: "Helvetica", Arial, sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.footer-address {
+  font-size: 13px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.footer-meta {
+  font-size: 12px;
+  line-height: 12px;
+  color: #000000;
+}
