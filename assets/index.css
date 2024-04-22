@@ -25,10 +25,6 @@ a:visited {
   color: var(--txt-color);
 }
 
-.link {
-  text-decoration: underline !important;
-}
-
 p,
 p:visited {
   /* Fallback paragraph style */
@@ -50,19 +46,7 @@ h1 {
   color: var(--txt-color);
 }
 
-.ExternalClass p,
-.ExternalClass span,
-.ExternalClass font,
-.ExternalClass td {
-  line-height: 100%;
-}
-
-.ExternalClass {
-  width: 100%;
-}
-
-/* ---------- Header ---------- */
-.header-table {
+.container {
   margin: 0 auto;
   text-align: center;
   vertical-align: top;
