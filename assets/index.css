@@ -68,6 +68,10 @@ h1 {
   vertical-align: top;
   width: 600px;
   max-width: 100%;
+}
+
+/* ---------- Header ---------- */
+.header-table {
   background-color: #fafafa;
   border-bottom: 2px solid #f2f4f6;
 }
@@ -88,11 +92,7 @@ h1 {
 /* ---------- Content ---------- */
 
 .content-table {
-  margin: 0 auto;
   text-align: justify;
-  vertical-align: top;
-  width: 600px;
-  max-width: 600px;
   background-color: #ffffff;
 }
 
@@ -124,14 +124,6 @@ h1 {
   max-height: 240px;
 }
 
-footer table {
-  margin: 0 auto;
-  text-align: center;
-  vertical-align: top;
-  width: 600px;
-  max-width: 600px;
-}
-
 .top-footer-table {
   background-color: #000000;
 }
@@ -157,12 +149,6 @@ footer table {
   text-align: center;
 }
 
-footer p {
-  font-family: var(--font-family);
-  font-weight: normal;
-  text-decoration: none;
-}
-
 .footer-address {
   font-size: 13px;
   line-height: 24px;
@@ -170,6 +156,9 @@ footer p {
 }
 
 .footer-meta {
+  font-family: var(--font-family);
+  font-weight: normal;
+  text-decoration: none;
   font-size: 12px;
   line-height: 12px;
   color: var(--txt-color);
