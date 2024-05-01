@@ -21,15 +21,17 @@ def generate_email(template_file, output_file, content):
     with open(output_path, 'w') as f:
         f.write(dynamic_content)
 
-
-# content = "hello world this is dynamic content"
+# ----- #NOTE: INSERT EMAIL CONTENT HERE -----
+content = "hello world this is dynamic content"
 
 if __name__ == "__main__":
     email_data = {
         'title': 'test',
-        'content': "Hello world this is dynamic content",
+        'content': content,
     }
 
+# Standardise the output file's filename 
 output_filename = "email_" + email_data['title'].lower().replace(" ", "_") + ".html"
 
+# Calling the main function with its relevant args
 generate_email('email_layout.html', output_filename, email_data)
