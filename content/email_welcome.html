@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:o="urn:schemas-microsoft-com:office:office">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="x-apple-disable-message-reformatting" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- NOTE: Email Title -->
+    <title>XPand API Newsletter</title>
+
+    <link rel="stylesheet" href="../assets/index.css" />
+  </head>
+
+  <body>
+    <!-- NOTE: [Section] HEADER -->
+    <table class="container header-table">
+      <tbody>
+        <tr>
+          <td class="header-data">
+            <img
+              class="header-logo"
+              alt="Small Logo"
+              src="https://xpandportal.blob.core.windows.net/xportal/Images/Brand%20Assets/Logos/xpand-favicon-transparent.png" />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- NOTE: [Section] CONTENT -->
+    <table class="container content-table">
+      <tbody>
+        <tr>
+          <td class="content-data">
+            <!-- DYNAMIC CONTENT -->
+            <div class="content-main">
+              <h1><b> Dear $DevFirstName $DevLastName, </b></h1>
+              
+            <h2>
+                <i>
+                  Welcome to $OrganizationName API!      
+                </i>      
+            </h2>
+            <p>
+                Your $OrganizationName API program registration is completed and we are thrilled to have you as a customer.
+                <br />
+
+                #if ($IdentityProvider == "Basic")
+                <p>
+                    Please use the following username when  signing into
+                    any of the ${OrganizationName}-hosted developer portals:
+                </p>
+                <p>
+                    <strong>$DevUsername</strong> 
+                </p>
+
+                #else
+
+                <p>
+                    Please use the following <strong>$IdentityProvider account</strong> when signing into any of the ${OrganizationName}-hosted developer portals:
+                </p>
+                <p>
+                    <strong>$DevUsername</strong>
+                </p>            
+                #end
+            </p>
+        
+            </div>
+            <!-- END DYNAMIC CONTENT -->
+
+            <p class="content-signature">
+              Best of luck in your API pursuits, <br />
+              <strong> $OrganizationName API Team </strong><br />
+            </p>
+            <p class="content-signature">
+              <a target="_blank" href="http://$DevPortalUrl">
+                <u>DevPortalUrl</u>
+              </a>
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- NOTE: [Section] FOOTER -->
+    <footer>
+      <img
+        class="footer-image"
+        alt="XPand Image"
+        src="https://www.xpandlogistics.co.uk/wp-content/uploads/2023/04/homepage2-images.jpg" />
+      <table class="container top-footer-table">
+        <tbody>
+          <tr>
+            <td class="footer-data">
+              <img
+                class="footer-logo"
+                alt="Big Logo"
+                src="https://www.xpandlogistics.co.uk/wp-content/uploads/2023/01/logo_white.svg" />
+              <p class="footer-address">
+                Unit 2 Essence House <br />
+                Thorpe Industrial Park <br />
+                Egham, TW20 8RN
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="container bottom-footer-table">
+        <tbody>
+          <tr>
+            <td class="footer-data">
+              <p class="footer-meta">
+                Email sent by
+                <a
+                  style="text-decoration: underline; color: #000000"
+                  href="https://www.xpandlogistics.co.uk/"
+                  ><u>Xpand Logistics</u></a
+                >
+              </p>
+              <p class="footer-meta">
+                Copyright &copy; 2024 XPand Logistics All Rights Reserved.
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </footer>
+  </body>
+</html>
