@@ -100,10 +100,15 @@ h1 {
 }
 
 /* ---------- Footer ---------- */
+.footer-image,
+.footer-logo {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 
 .footer-image {
-  margin: auto;
-  display: block;
   width: 600px;
   max-width: 600px;
   height: 240px;
