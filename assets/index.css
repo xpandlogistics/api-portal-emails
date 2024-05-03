@@ -2,6 +2,8 @@
   --font-family: "Helvetica", Arial, sans-serif;
   --bg-color: #f2f4f6;
   --txt-color: #000000;
+  --hyper-link: #0000ee;
+  --button-bg: rgba(0, 50, 86, 1);
 }
 
 body {
@@ -22,7 +24,7 @@ a:hover,
 a:link,
 a:visited {
   text-decoration: none !important;
-  color: var(--txt-color);
+  color: var(--hyper-link);
 }
 
 p,
